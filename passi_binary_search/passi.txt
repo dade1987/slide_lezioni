@@ -1,0 +1,13 @@
+Inizializzazione: Determina gli indici di inizio (left) e fine (right) dell'array su cui si sta eseguendo la ricerca. Di solito, left è impostato su 0 e right sull'ultimo indice dell'array.
+
+Iterazione: Si esegue un ciclo finché l'indice sinistro left è minore o uguale all'indice destro right. Questo garantisce che la ricerca continui fino a quando non si è esaminato l'intero intervallo di ricerca.
+
+Calcolo del punto medio: Si calcola l'indice del punto medio dell'intervallo di ricerca come mid = (left + right) / 2. Questo è il punto in cui viene effettuato un confronto per vedere se l'elemento cercato è presente.
+
+Confronto: Si controlla se l'elemento nel punto medio dell'array è uguale all'elemento cercato. Se sì, si restituisce l'indice in cui è stato trovato l'elemento.
+
+Aggiornamento dell'intervallo: Se l'elemento nel punto medio è maggiore dell'elemento cercato, si aggiorna l'indice destro right in modo che l'intervallo di ricerca sia nella metà sinistra dell'array. Altrimenti, se l'elemento nel punto medio è minore dell'elemento cercato, si aggiorna l'indice sinistro left in modo che l'intervallo di ricerca sia nella metà destra dell'array.
+
+Ripetizione: Si ritorna al passo 2 e si continua ad eseguire questo processo fino a quando l'elemento cercato viene trovato o fino a quando l'intervallo di ricerca diventa vuoto (left supera right).
+
+Risultato: Se l'elemento viene trovato, si restituisce l'indice in cui è stato trovato. In caso contrario, si restituisce -1 per indicare che l'elemento cercato non è presente nell'array.
