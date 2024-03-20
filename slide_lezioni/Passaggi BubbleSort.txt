@@ -1,0 +1,14 @@
+    Creazione di una LinkedList e aggiunta di elementi disordinati:
+        Inizia creando una nuova LinkedList di interi.
+        Aggiungi alcuni elementi disordinati alla LinkedList utilizzando il metodo add().
+
+    Stampa della LinkedList prima dell'ordinamento:
+        Utilizza un'istruzione di output per stampare la LinkedList prima dell'ordinamento.
+
+    Bubble Sort:
+        Implementa una funzione chiamata bubbleSort() che prenda in input la LinkedList e ordini gli elementi utilizzando l'algoritmo di Bubble Sort.
+        Utilizza due cicli annidati per scorrere la LinkedList e confrontare gli elementi.
+        Se l'elemento corrente è maggiore del successivo, scambiali di posizione.
+
+    Stampa della LinkedList dopo l'ordinamento:
+        Dopo l'ordinamento, utilizza un'istruzione di output per stampare la LinkedList.
